@@ -35,7 +35,7 @@
             <column name="ACCOUNTS_URL" value="${TPP_DEFAULT_HOST_API}/open-banking/v3.1/aisp/v3.1.2"/>
             <column name="CLIENT_ID" value="${TPP_DEFAULT_ACCESS_USER}"/>
             <column name="CLIENT_SECRET" value="${TPP_DEFAULT_ACCESS_PASS}"/>
-            <column name="CALLBACK_URL" value="${tpp.default.host.client}/netbank/customer/banks/authorize"/>
+            <column name="CALLBACK_URL" value="${tpp.default.host.client}/customer/banks/authorize"/>
             <column name="USERNAME" value="acefintech"/>
             <column name="AUTHORIZE_URL" value="${TPP_DEFAULT_HOST_API}/authorize"/>
             <column name="PAYMENTS_URL" value="${TPP_DEFAULT_HOST_API}/open-banking/v3.1/pisp/v3.1.2"/>
